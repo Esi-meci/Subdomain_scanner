@@ -1,19 +1,6 @@
-
-# class base:
-#     def __init__ (self):
-#         self.name = 'tunde'
-#     def print(self):
-#         print('hello this', self.name)
-
-# class myown(base):
-#     def __init__ (self):
-#         base. __init__ (self)
-#         self.name = 'seyi'
-
-# myown()
 import requests
 #the domain to scan for subdomains
-domain = 'annashut.com'
+domain = 'google.com'
 # read all subdomain
 file = open('subdomain.txt')
 # read all content
